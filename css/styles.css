@@ -1,0 +1,153 @@
+/* styles.css */
+
+body {
+    text-align: center;
+    background-image: linear-gradient(to right, #434343 , #000);
+}
+
+#racetrack {
+    background: url('../img/road.jpg') center left repeat-x;
+    height: 330px;
+    border-right: dashed 10px white;
+    box-sizing: border-box;
+    margin: 40px 0;
+}
+
+.car {
+    display: block;
+    position: relative;
+}
+
+#car1 { top: 30px; }
+#car2 { top: 100px; }
+
+#raceInfoContainer {
+    width: 80%;
+    margin: 40px auto 0;
+    background: #333;
+    height: 200px;
+    display:none;
+}
+
+#raceInfoContainer h2 {
+    color: white;
+    text-transform: uppercase;
+    border-bottom: solid 1px white;
+    padding: 20px 0;
+}
+
+.raceInfo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    width: 50%;
+    float: left;
+}
+
+.raceInfo span {
+    display: block;
+    font-weight: normal;
+    font-size: 18px;
+    color: white;
+}
+
+#raceInfo1 {
+    color: #77b82f;
+}
+
+#raceInfo2 {
+    color: #b82f3e;
+}
+
+input[type="button"] {
+    padding: 10px 20px;
+    font-weight: 800;
+    border: solid 1px #444;
+}
+input[type="button"]:hover {
+    padding: 10px 20px;
+    border: solid 1px #444;
+    position: relative;
+    padding: 10px 20px;
+    border: solid 1px #444;
+    top: -2px;
+    box-shadow: 2px 2px 5px #444;
+}
+
+#betgreen {
+    background: white;
+    color: #77b72f;
+    position: relative;
+    left: -4px;
+}
+#betgreen:hover {
+    background: #77b72f;
+    color: white;
+}
+h1{
+    background-image: linear-gradient(to right, #1E9600 , #FFF200, #FF0000);
+    background-size: 100%;
+    color: transparent;
+    -webkit-background-clip: text;
+    font-weight: 900;
+    font-size: 40px;
+}
+#go{
+    font-size: 40px;
+    background: #008B8B;
+    color: white;
+    font-weight: 900;
+}
+#go:hover {
+    background: #008B8B;
+    color: white;
+}
+
+#betred {
+    background: white;
+    color: 	#B22222;
+    position: relative;
+    left: -4px;
+}
+#betred:hover {
+    background: 	#B22222;
+    color: white;
+}
+
+#reset {
+    background: white;
+    color: orange;
+    display: none;
+}
+#reset:hover {
+    background: #FFD700;
+    color: white;
+}
+
+#result{
+    text-align: center;
+    font-weight: 1500;
+    margin: 0 auto;
+    font-size: 60px;
+    background-image: linear-gradient(to right, #1E9600 , #FFF200, #FF0000);
+    background-size: 100%;
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.clearfix:after {
+    content:"";
+    display: table;
+    clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
